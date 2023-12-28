@@ -28,3 +28,9 @@ a{
     margin-right: 20px;
     padding-top: 20px;
 }
+
+div{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
