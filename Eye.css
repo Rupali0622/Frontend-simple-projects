@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+    border: black solid 1.5px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+
+}
+#box1{
+    background-color: rgb(201, 54, 83);
+    border: rgb(82, 81, 81) solid 2px;
+    border-radius: 50%;
+}
+
+#box2{
+    background-color: rgb(245, 67, 123);
+    border: rgb(82, 81, 81) solid 2px;
+    border-radius: 50%;
+}
+
+#box3{
+    background-color: rgb(241, 98, 241);
+    border: rgb(82, 81, 81) solid 2px;
+    border-radius: 50%;
+}
+
+#box4{
+    background-color: lightcoral;
+    border: rgb(82, 81, 81) solid 2px;
+    border-radius: 50%;
+}
