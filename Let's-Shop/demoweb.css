@@ -66,23 +66,26 @@ img{
     display: flex;
     justify-content: space-evenly;
     border-radius: 10%;
-    transition: all 0.5s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
 }
 .img{
-    /* margin-top: 10px; */
+    margin-top: 7px;
     height: 190px;
-    width: 250px;
+    width: 235px;
     background-size: cover;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
-    transition: all 1s ease-in 0s;
+    transition: all 0.1s ease-in 0s;
     
 }
 .product:hover{
-    background-color: rgb(221, 51, 108);
+    /* background-color: rgb(221, 51, 108); */
 }
 .img:hover{
     background-color: palevioletred;
+    transform: scale(1.06);
+    /* border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%; */
 
 }
 #img1{
