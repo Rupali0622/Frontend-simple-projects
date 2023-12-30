@@ -66,6 +66,7 @@ img{
     display: flex;
     justify-content: space-evenly;
     border-radius: 10%;
+    transition: all 0.5s ease-in 0s;
 }
 .img{
     /* margin-top: 10px; */
@@ -74,7 +75,15 @@ img{
     background-size: cover;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
+    transition: all 1s ease-in 0s;
     
+}
+.product:hover{
+    background-color: rgb(221, 51, 108);
+}
+.img:hover{
+    background-color: palevioletred;
+
 }
 #img1{
     background-image: url(one.jpg);
