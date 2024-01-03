@@ -1,11 +1,13 @@
+body{
+    background-color: pink;
+}
 #outer-box{
-    height: 300px;
+    height: 420px;
     width: 600px;
-    /* background-color: indigo; */
+    background-color: indigo;
     margin-left: 300px;
     margin-top: 80px;
 }
-
 .inner{
     display: flex;
     height: 140px;
@@ -14,10 +16,16 @@
     align-items: center;
 
 }
-
 .box{
     height: 100px;
     width: 100px;
     background-color: palevioletred;
     rotate: 45deg;
 }
+#box6{
+    background-color: skyblue;
+}
+#box7{
+    background-color: skyblue;
+}
+
