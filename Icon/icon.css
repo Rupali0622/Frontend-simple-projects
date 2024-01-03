@@ -1,12 +1,17 @@
 body{
     background-color: pink;
 }
+h1{
+    text-align: center;
+    font-family: Georgia, serif;
+}
 #outer-box{
     height: 420px;
     width: 600px;
     background-color: indigo;
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 30px;
+    border: black solid 1.5px;
 }
 .inner{
     display: flex;
@@ -14,13 +19,13 @@ body{
     width: 600px;
     justify-content: space-evenly;
     align-items: center;
-
 }
 .box{
     height: 100px;
     width: 100px;
     background-color: palevioletred;
     rotate: 45deg;
+    border: black solid 1.5px;
 }
 #box6{
     background-color: skyblue;
