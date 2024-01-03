@@ -1,0 +1,17 @@
+#outer-box{
+    height: 300px;
+    width: 300px;
+    background-color: indigo
+}
+
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: palevioletred;
+}
+
+.inner{
+    display: flex;
+    height: 100px;
+    width: 300px;
+}
