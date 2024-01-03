@@ -1,17 +1,27 @@
 #outer-box{
     height: 300px;
     width: 300px;
-    background-color: indigo
-}
-
-.box{
-    height: 20px;
-    width: 20px;
-    background-color: palevioletred;
+    background-color: indigo;
+    margin-left: 450px;
+    margin-top: 150px;
 }
 
 .inner{
     display: flex;
     height: 100px;
     width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+}
+#box1{
+    rotate: deg;
+}
+#box2{
+    rotate: 280deg;
 }
