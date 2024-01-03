@@ -4,13 +4,21 @@ body{
 h1{
     text-align: center;
     font-family: Georgia, serif;
+    text-decoration: underline;
+}
+#outer{
+    height: 430px;
+    width: 610px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border: black solid 1.5px;;
 }
 #outer-box{
     height: 420px;
     width: 600px;
     background-color: indigo;
-    margin-left: 300px;
-    margin-top: 30px;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
     border: black solid 1.5px;
 }
 .inner{
