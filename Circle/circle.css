@@ -1,0 +1,43 @@
+.outer-box{
+    height: 400px;
+    width: 400px;
+    /* background-color: peru; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    margin: 100px 0px 0px 410px;
+}
+
+.inner-box{
+    height: 197px;
+    width: 195px;
+    background-color: aquamarine;
+    /* border: black solid 1.5px; */
+}
+
+#box1{
+    border-top-left-radius: 100%;
+}
+#box2{
+    border-top-right-radius: 100%;
+}
+#box3{
+    border-bottom-left-radius: 100%;
+}
+#box4{
+    border-bottom-right-radius: 100%;
+}
+#box1:hover{
+    background-color: red;
+}
+#box2:hover{
+    background-color: rgb(5, 215, 5);
+}
+#box3:hover{
+    background-color: rgb(19, 188, 249);
+}
+#box4:hover{
+    background-color: rgb(255, 217, 0);
+}
